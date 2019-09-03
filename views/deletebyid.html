@@ -1,0 +1,18 @@
+<html> 
+        <head>
+                <link rel="stylesheet" href="styles.css">
+        </head>
+    <body>
+            <h1>Delete Task By TaskID</h1>
+            <a href= '/'> Home </a><br>
+            <a href= '/addtask'> Add New Task </a><br>
+            <a href= '/listtasks'> List All Tasks </a><br>
+            <a href="/deletecompletedtasks">Delete The Completed Tasks</a><br>
+            <a href="/updatebyid">Update Task Status By TaskID</a><br>
+
+            <form action = "/deletebyid" method = 'POST'>
+            Task ID <input type = "text" name = "taskId"/><br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
